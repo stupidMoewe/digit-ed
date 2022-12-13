@@ -1,5 +1,5 @@
-#import piplite
-#await piplite.install("ipywidgets")
+import piplite
+await piplite.install("ipywidgets")
 
 import ipywidgets as widgets
 import matplotlib
